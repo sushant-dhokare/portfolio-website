@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Sushant</span><br><span>Dhokare</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A computer engineer with a flair for the extraordinary. I enjoy problems that need me to combine
+                        my technical knowledge, analytical skill, and passion for coding to create cutting-edge software
+                        solutions.
+
+                        My journey is motivated by a never-ending ambition to combine technology with innovation. I'm on
+                        a mission to develop software experiences that go above and beyond expectations, armed with a
+                        thorough understanding of computer engineering. I love being a change agent, bringing new ideas
+                        to teams that are moving forward while also developing my own technical expertise.
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>C, C++, Flask</li>
+                            <li><span>Database & Services</span><br>AWS, MySQL, MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Intership at Bharat Intern</li>
+                            <li><span>2023 - 2023</span><br>Intership at Oasis Infobyte</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024 (Current)</span><br>BTech from MIT Academy Of Engineering, Alandi</li>
+                            <li><span>2020</span><br>HSC from Smt kasturidevi jayaprakash gupta jr college, Chinchwad,
+                                Pune, Maharashtra</li>
+                            <li><span>2018</span><br>SSC from Shri Shiv Chatrapati Shivaji Raje Madhyamik Vidyalaya,
+                                Chinchwad, Pune, Maharashtra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p> Crafting captivating user interfaces is my specialty. As a front-end developer, I focus on
+                        creating pixel-perfect designs that seamlessly adapt to different devices, while also infusing
+                        interactive elements that engage and delight users</p>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Back-End Development</h2>
+                    <p>From designing efficient databases and handling complex data processing to implementing secure
+                        authentication and APIs, I ensure your digital ecosystem operates smoothly behind the scenes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Website for NGO</h2>
+                        <p>It is an NGO-related project. We have created a website that is focused on the work of NGOs.
+                            It includes the work an NGO does, the money they raise, and the numerous types of work they
+                            undertake.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Stock Price Prediction Using LSTM Model</h2>
+                        <p>The Stock price prediction using modifing LSTM model project involves developing a machine
+                            learning model that can forecast the future stock prices
+                            of a company based on historical data.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Library management system</h2>
+                        <p>A software programme called the Library Management System is intended to make it easier to
+                            organise and access library resources. It has a user-friendly interface that efficiently
+                            manages the cataloguing, tracking, and lending of books.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>sushantdhokare12@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Sushant_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+    </script>
+</body>
+
+</html>
